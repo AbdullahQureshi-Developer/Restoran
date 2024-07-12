@@ -259,11 +259,11 @@ body {
   margin-left: 320px;
   color: #ffb600;
 }
-.page4 .foodimages{
+.page4 .foodimages {
   position: absolute;
   /* height: 200px; */
   margin-top: 800px;
-  margin-left: 750px;
+  margin-left: 700px;
 }
 .page4 .head {
   position: absolute;
@@ -272,9 +272,47 @@ body {
   font-weight: 700;
   line-height: 48px;
   margin-top: 850px;
-  margin-left: 700px;
+  margin-left: 650px;
 
- /* height: 240px; */
+  /* height: 240px; */
   color: rgba(15, 23, 43, 1);
+}
+.page4 .menu-head {
+  position: absolute;
+  margin-top: 950px;
+  margin-left: 560px;
+  color: rgba(102, 101, 101, 1);
+}
+.menu-head {
+  display: flex;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 19.2px;
+  text-align: left;
+  padding: 10px;
+}
+.menu-head h1 {
+  margin-right: 30px;
+}
+.menu-head img {
+  margin-right: 20px;
+}
+.footer {
+  position: absolute;
+  color: black;
+  margin-top: 1050px;
+}
+.footer {
+  /* position: relative; */
+  display: grid;
+  grid-template-columns: auto auto ;
+  left: 30%;
 
 }
+.div1 h2{
+   position: absolute; 
+   margin-left: 100px;
+   margin-top: 20px; 
+}
+
